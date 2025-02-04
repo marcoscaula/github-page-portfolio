@@ -25,14 +25,17 @@ function abrirMenuBtn(){
 
 
 
-  async function main() {
-    loadHeader(document.querySelector(".header"));
-    abrirMenuBtn();
-    addBienvenida(getBienvenida());
-    addPresentacion(getPresentacion())
-    addCardContent(getCardsContent());
-    loadContact(document.querySelector(".contacto"));
-    loadFooter(document.querySelector(".footer"));
+function main() {
+    document.addEventListener("DOMContentLoaded", () => {
+
+        loadHeader(document.querySelector(".header"));
+        abrirMenuBtn();
+        addBienvenida(getBienvenida());
+        addPresentacion(getPresentacion())
+        addCardContent(getCardsContent());
+        loadContact(document.querySelector(".contacto"));
+        loadFooter(document.querySelector(".footer"));
+    })
     
 }
 
