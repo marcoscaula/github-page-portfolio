@@ -1,0 +1,41 @@
+.bienvenida{
+    width: 100%;
+    height: auto;
+    background-color: #13171C;
+}
+.bienvenida_title{
+    margin: 0;
+    color: white;
+    font-family: "Poppins";
+    font-size: 60px;
+    text-align: center;
+    padding: 60px;
+}
+.marcos{
+    color: #00ADB5;
+}
+.bienvenida_img-container{
+    text-align: center;
+}
+@media (min-width:600px){
+    .bienvenida{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        align-items: center;
+        margin-top: 250px;
+    }
+    .bienvenida_title{
+        text-align: center;
+        margin-left: 30px;
+        font-size: 70px;
+    }
+    .bienvenida_img-uno{
+        width: 400px;
+        height: 400px;
+    }
+    
+
+    
+    
+}

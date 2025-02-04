@@ -1,0 +1,58 @@
+.mis-servicios{
+    width: 100%;
+    height: 900px;
+    background-color: #13171C;
+}
+.txtservicios{
+    color: white;
+}
+.contenedor-txt-servicios{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 60px;
+}
+.txt{
+    color: #00ADB5;
+}
+.contenedor-maletin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+@media (min-width:600px){
+    .txtservicios{
+        padding: 200px;
+    }
+    .mis-servicios{
+        display: flex;
+    }
+    .contenedor-maletin{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 80%;
+        gap: 80px;
+    }
+    .maletin{
+        width: 400px;
+    }
+    .sombra{
+        display: initial;
+        width: 500px;
+        height: 100px;
+    }
+}
+.sombra{
+    
+}
+.title__services{
+    display: none;
+}
+.txt-servicios{
+    display: none;
+}
+.services{
+    margin-top: 150px;
+}
