@@ -26,7 +26,7 @@ function abrirMenuBtn(){
 
 
 function main() {
-    document.addEventListener("DOMContentLoaded", () => {
+    window.addEventListener("load", () => {
 
         loadHeader(document.querySelector(".header"));
         abrirMenuBtn();
@@ -38,5 +38,6 @@ function main() {
     })
     
 }
-
 main();
+
+// main();
