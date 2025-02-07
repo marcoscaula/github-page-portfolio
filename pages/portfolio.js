@@ -118,20 +118,24 @@ function addContent(params = {}){
 
 
 function main(){
-    loadHeader(document.querySelector(".header"));
-    abrirMenuBtn();
-    addimagenes(getimagenes());
 
-    getContentCard();
+    window.addEventListener("load", () =>{
+
+        loadHeader(document.querySelector(".header"));
+        abrirMenuBtn();
+        addimagenes(getimagenes());
     
-     getContentCard().then(function(works) {
-         for (const w of works) {
-             addContent(w);
-         }
+        getContentCard();
         
-     })
-    loadFooter(document.querySelector(".footer"));
-   
+         getContentCard().then(function(works) {
+             for (const w of works) {
+                 addContent(w);
+             }
+            
+         })
+        loadFooter(document.querySelector(".footer"));
+       
+    });
     // https://cdn.contentful.com/spaces/7cjsovrzk05x/environments/master/entries?access_token=hrLvTVG0W7VdK_ZXTiSC3rasnmhWlAXid11ckn5fxkE&content_type=trabajos
 }
 main();

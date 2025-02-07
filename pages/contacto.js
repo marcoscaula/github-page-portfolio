@@ -25,10 +25,14 @@ function abrirMenuBtn(){
 
 
 function main(){
-    loadHeader(document.querySelector(".header"));
-    abrirMenuBtn();
-    loadContact(document.querySelector(".contacto"));
-    loadFooter(document.querySelector(".footer"));
+
+    window.addEventListener("load", ()=> {
+
+        loadHeader(document.querySelector(".header"));
+        abrirMenuBtn();
+        loadContact(document.querySelector(".contacto"));
+        loadFooter(document.querySelector(".footer"));
+    })
 }
 main();
 

@@ -65,12 +65,15 @@ function addimagenes(imagenes) {
     
 
  function main() {
-    loadHeader(document.querySelector(".header"));
-    addimagenes(getimagenes());
-    abrirMenuBtn();
-    addCardContent(getCardsContent());
-    loadFooter(document.querySelector(".footer"));
-    
+    window.addEventListener("load", () =>{
+
+        loadHeader(document.querySelector(".header"));
+        addimagenes(getimagenes());
+        abrirMenuBtn();
+        addCardContent(getCardsContent());
+        loadFooter(document.querySelector(".footer"));
+    });
+        
     
         
 }
