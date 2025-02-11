@@ -44,6 +44,8 @@
 .services__card:hover{
     background-color: rgb(104, 101, 96);
     cursor: pointer;
+    box-shadow: 10px 20px 20px rgba(244, 34, 34, 0.5);
+    transition: all 0.5s ease;
 }
 .services-img__card{
    width: 250px;
