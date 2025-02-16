@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 .contacto{
     color: white;
     width: 100%;
@@ -80,7 +81,9 @@
    border: 2px solid black;
    outline: none;
    color: white;
-   font-family: "Poppins";
+   font-family: "Alfa Slab One";
+   font-size: 12px;
+   font-weight: 50;
 }
 .texto-form{
     font-family: "Poppins";

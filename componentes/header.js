@@ -5,7 +5,7 @@ function loadHeader(el){
     const divcarga = document.createElement("div");
     divcarga.innerHTML = `<div class="header-contenedor">
                 <a href="index.html">
-                    <img class="img" src="img/Marcos CAula.png" alt=""> 
+      <img class="img" src="img/Captura_de_pantalla_2025-02-15_224016-removebg-preview.png" alt="">
                 </a>
                 <div class="contenedor-options">
                     <a class="option_header" href="contacto.html">
@@ -40,9 +40,24 @@ function loadHeader(el){
 
    
      el.appendChild(divcarga);
-
-
-
-
-}
+     
+     
+    }
+    
+    
+function scroll() {
+       
+           
+           const header = document.querySelector("header");
+           
+           // Manejo del scroll
+           window.addEventListener("scroll", () => {
+               const scrolled = 'scrolled';
+               if (window.scrollY > 50) {
+                   header.classList.add(scrolled);
+               } else {
+                   header.classList.remove(scrolled);
+               }
+           });
+       }
 

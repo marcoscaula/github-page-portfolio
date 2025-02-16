@@ -29,6 +29,7 @@ function main(){
     window.addEventListener("load", ()=> {
 
         loadHeader(document.querySelector(".header"));
+        scroll();
         abrirMenuBtn();
         loadContact(document.querySelector(".contacto"));
         loadFooter(document.querySelector(".footer"));

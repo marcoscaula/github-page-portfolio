@@ -24,11 +24,11 @@ function abrirMenuBtn(){
 
 
 
-
 function main() {
     window.addEventListener("load", () => {
-
-        loadHeader(document.querySelector(".header"));
+        
+        loadHeader(document.querySelector("header"));
+        scroll();
         abrirMenuBtn();
         addBienvenida(getBienvenida());
         addPresentacion(getPresentacion())

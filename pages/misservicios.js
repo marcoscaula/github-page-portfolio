@@ -68,6 +68,7 @@ function addimagenes(imagenes) {
     window.addEventListener("load", () =>{
 
         loadHeader(document.querySelector(".header"));
+        scroll();
         addimagenes(getimagenes());
         abrirMenuBtn();
         addCardContent(getCardsContent());

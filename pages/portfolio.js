@@ -122,6 +122,7 @@ function main(){
     window.addEventListener("load", () =>{
 
         loadHeader(document.querySelector(".header"));
+        scroll();
         abrirMenuBtn();
         addimagenes(getimagenes());
     

@@ -38,13 +38,13 @@
     width: 320px;
     height: 481px;
     margin-top: 50px;
-    box-shadow: 10px 20px 20px rgba(169, 94, 230, 0.5);
+    box-shadow: 10px 20px 20px rgba(104, 149, 233, 0.5);
    
 }
 .services__card:hover{
     background-color: rgb(104, 101, 96);
     cursor: pointer;
-    box-shadow: 10px 20px 20px rgba(244, 34, 34, 0.5);
+    box-shadow: 10px 20px 20px rgba(93, 244, 34, 0.5);
     transition: all 0.5s ease;
 }
 .services-img__card{

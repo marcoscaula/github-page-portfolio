@@ -50,5 +50,16 @@
     color: white;
     text-align: center;
 }
+.logo-footer{
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s ease;
+}
+.logo-footer:hover{
+    width: 250px;
+    height: 250px;
+
+
+    }
 
 
